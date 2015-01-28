@@ -1,0 +1,8 @@
+NET "clock"             LOC = "V10" |IOSTANDARD = "LVCMOS33";  
+Net "clock" 				TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD "sys_clk_pin" 10 ns HIGH 50%;
+
+NET "uart_txt"  			  LOC = "N18"  |IOSTANDARD = "LVCMOS33";
+NET "uart_rxt"				  LOC = "N17"  |IOSTANDARD = "LVCMOS33";	
+NET "reset"   				  LOC = "T10"  |IOSTANDARD = "LVCMOS33";      
+  
